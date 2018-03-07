@@ -16,7 +16,6 @@ function onConnection(inSocket)
 
 }
 
-
 io.on('connectio', onConnection);
 
 http.listen(3000, () => console.log("I am alive..."))

@@ -32,5 +32,9 @@
             drawing = false;
         }
 
+        function drawPoint(xPoint, yPoint)
+        {
+            //Draw point on the screen
+        }
     }
 )();
