@@ -8,9 +8,6 @@
         var canvas = document.getElementById('whiteboard');
         var context = canvas.getContext('2d');
 
-<<<<<<< HEAD
-        //Changes to gregs branch
-=======
         canvas.addEventListener('mousedown', onMouseDown, false);
         canvas.addEventListener('mousemove', onMouseMove, false);
         canvas.addEventListener('mouseup', onMouseUp, false);
@@ -34,7 +31,6 @@
         {
             drawing = false;
         }
->>>>>>> master
 
     }
 )();
